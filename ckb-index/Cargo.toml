@@ -11,6 +11,6 @@ serde_derive = "1.0"
 bincode = "1.1.4"
 log = "0.4.6"
 failure = "0.1.5"
-ckb-types = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-sdk = { path = "../ckb-sdk" }
+ckb-types = "=0.40.0"
+ckb-sdk = { path = "../ckb-sdk", version = "=0.40.0" }
 rocksdb = { package = "ckb-rocksdb", version = "=0.13.0", features = ["snappy"] }

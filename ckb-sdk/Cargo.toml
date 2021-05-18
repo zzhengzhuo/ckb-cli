@@ -25,11 +25,11 @@ uuid = { version = "0.7.4", features = ["v4"] }
 chrono = "0.4.6"
 failure = "0.1.5"
 
-ckb-types = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-error = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-script = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-jsonrpc-types = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-hash = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-resource = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-crypto = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2", features = ["secp"] }
-ckb-sdk-types = { path = "../ckb-sdk-types" }
+ckb-types = "=0.40.0"
+ckb-error = "=0.40.0"
+ckb-script = "=0.40.0"
+ckb-jsonrpc-types = "=0.40.0"
+ckb-hash = "=0.40.0"
+ckb-resource = "=0.40.0"
+ckb-crypto = { version = "=0.40.0", features = ["secp"] }
+ckb-sdk-types = { path = "../ckb-sdk-types", version="=0.40.0" }

@@ -6,18 +6,18 @@ authors = ["Linfeng Qian <thewawar@gmail.com>", "Nervos Core Dev <dev@nervos.org
 edition = "2018"
 
 [dependencies]
-ckb-jsonrpc-types = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-hash = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-crypto = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2", features = ["secp"] }
-ckb-build-info = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-types = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-util = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-resource = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-dao-utils = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-chain-spec = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
-ckb-sdk = { path = "ckb-sdk" }
-ckb-index = { path = "ckb-index" }
-plugin-protocol = { path = "plugin-protocol", package = "ckb-cli-plugin-protocol" }
+ckb-jsonrpc-types = "=0.40.0"
+ckb-hash = "=0.40.0"
+ckb-crypto = { version = "=0.40.0", features = ["secp"] }
+ckb-build-info = "=0.40.0"
+ckb-types = "=0.40.0"
+ckb-util = "=0.40.0"
+ckb-resource = "=0.40.0"
+ckb-dao-utils = "=0.40.0"
+ckb-chain-spec = "=0.40.0"
+ckb-sdk = { path = "ckb-sdk", version = "=0.40.0" }
+ckb-index = { path = "ckb-index", version = "=0.40.0" }
+plugin-protocol = { path = "plugin-protocol", package = "ckb-cli-plugin-protocol", version = "0.1.0" }
 jsonrpc-core-client = "17"
 jsonrpc-core = "17"
 jsonrpc-derive = "17"
@@ -57,7 +57,7 @@ tui = "0.6.0"
 termion = "1.5"
 
 [build-dependencies]
-ckb-build-info = { git = "https://github.com/nervosnetwork/ckb", tag = "v0.40.0-rc2" }
+ckb-build-info = "=0.40.0"
 
 [workspace]
 members = ["ckb-sdk", "ckb-index", "ckb-sdk-types", "plugin-protocol"]
