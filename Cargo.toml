@@ -4,6 +4,7 @@ version = "0.40.0"
 license = "MIT"
 authors = ["Linfeng Qian <thewawar@gmail.com>", "Nervos Core Dev <dev@nervos.org>"]
 edition = "2018"
+description = "ckb command line interface"
 
 [dependencies]
 ckb-jsonrpc-types = "=0.40.0"
