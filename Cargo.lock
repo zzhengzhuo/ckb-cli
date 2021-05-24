@@ -1215,7 +1215,7 @@ dependencies = [
  "futures-sink",
  "futures-task",
  "memchr",
- "pin-project-lite 0.2.4",
+ "pin-project-lite 0.2.6",
  "pin-utils",
  "proc-macro-hack",
  "proc-macro-nested",
@@ -2270,15 +2270,15 @@ dependencies = [
 
 [[package]]
 name = "pin-project-lite"
-version = "0.1.11"
+version = "0.1.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c917123afa01924fc84bb20c4c03f004d9c38e5127e3c039bbf7f4b9c76a2f6b"
+checksum = "257b64915a082f7811703966789728173279bdebb956b143dbcd23f6f970a777"
 
 [[package]]
 name = "pin-project-lite"
-version = "0.2.4"
+version = "0.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "439697af366c49a6d0a010c56a0d97685bc140ce0d377b13a2ea2aa42d64a827"
+checksum = "dc0e1f259c92177c30a4c9d177246edd0a3568b25756a977d0632cf8fa37e905"
 
 [[package]]
 name = "pin-utils"
@@ -2636,7 +2636,7 @@ dependencies = [
  "mime",
  "native-tls",
  "percent-encoding 2.1.0",
- "pin-project-lite 0.2.4",
+ "pin-project-lite 0.2.6",
  "serde",
  "serde_json",
  "serde_urlencoded",
@@ -3105,7 +3105,7 @@ dependencies = [
  "memchr",
  "mio 0.6.23",
  "num_cpus",
- "pin-project-lite 0.1.11",
+ "pin-project-lite 0.1.12",
  "slab",
 ]
 
@@ -3121,7 +3121,7 @@ dependencies = [
  "memchr",
  "mio 0.7.8",
  "num_cpus",
- "pin-project-lite 0.2.4",
+ "pin-project-lite 0.2.6",
 ]
 
 [[package]]
@@ -3144,7 +3144,7 @@ dependencies = [
  "futures-core",
  "futures-sink",
  "log",
- "pin-project-lite 0.1.11",
+ "pin-project-lite 0.1.12",
  "tokio 0.2.25",
 ]
 
@@ -3158,7 +3158,7 @@ dependencies = [
  "futures-core",
  "futures-sink",
  "log",
- "pin-project-lite 0.2.4",
+ "pin-project-lite 0.2.6",
  "tokio 1.2.0",
 ]
 
@@ -3185,7 +3185,7 @@ checksum = "f77d3842f76ca899ff2dbcf231c5c65813dea431301d6eb686279c15c4464f12"
 dependencies = [
  "cfg-if 1.0.0",
  "log",
- "pin-project-lite 0.2.4",
+ "pin-project-lite 0.2.6",
  "tracing-core",
 ]
 
