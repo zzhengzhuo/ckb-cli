@@ -18,7 +18,7 @@ ckb-dao-utils = "=0.40.0"
 ckb-chain-spec = "=0.40.0"
 ckb-sdk = { path = "ckb-sdk", version = "=0.40.0" }
 ckb-index = { path = "ckb-index", version = "=0.40.0" }
-plugin-protocol = { path = "plugin-protocol", package = "ckb-cli-plugin-protocol", version = "0.1.0" }
+plugin-protocol = { path = "plugin-protocol", package = "ckb-cli-plugin-protocol", version = "=0.40.0" }
 jsonrpc-core-client = "17"
 jsonrpc-core = "17"
 jsonrpc-derive = "17"
