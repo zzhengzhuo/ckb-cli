@@ -683,6 +683,7 @@ dependencies = [
  "ckb-script",
  "ckb-sdk-types",
  "ckb-types",
+ "ckb-vm",
  "failure",
  "faster-hex 0.4.1",
  "fnv",
